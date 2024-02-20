@@ -19,7 +19,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.testcontainers:junit-jupiter")
-    //add dependencies as needed
+    testImplementation("org.assertj:assertj-core:3.25.3")
 }
 
 tasks.withType<Test> {
